@@ -256,14 +256,41 @@ input {
 
   color: var(--text-secondary);
 
-  &.active {
+  &:hover {
+    color: var(--orange-500);
+  }
+
+  &:active {
     background-color: var(--sand-500);
     color: var(--text);
   }
 
-  &:hover {
-    color: var(--orange-500);
+  &:focus-visible {
+    outline: 2px solid var(--orange-500);
+    outline-offset: 2px;
   }
+}
+
+.pm-header-nav-list li:first-child a {
+  background-color: var(--sand-500);
+  color: var(--text);
+}
+
+body:has(#destinos:target) .pm-header-nav-list li:first-child a,
+body:has(#servicios:target) .pm-header-nav-list li:first-child a,
+body:has(#nosotros:target) .pm-header-nav-list li:first-child a,
+body:has(#contacto:target) .pm-header-nav-list li:first-child a {
+  background-color: transparent;
+  color: var(--text-secondary);
+}
+
+body:has(#inicio:target) .pm-header-nav-list li:nth-child(1) a,
+body:has(#destinos:target) .pm-header-nav-list li:nth-child(2) a,
+body:has(#servicios:target) .pm-header-nav-list li:nth-child(3) a,
+body:has(#nosotros:target) .pm-header-nav-list li:nth-child(4) a,
+body:has(#contacto:target) .pm-header-nav-list li:nth-child(5) a {
+  background-color: var(--sand-500);
+  color: var(--text);
 }
 
 /* === HERO === */
@@ -847,7 +874,7 @@ section h3 {
   width: 100%;
 }
 
-@media (width <= 768px) {
+@media (width <=768px) {
   .hero-article h1 {
     font-size: 2.8rem;
   }
@@ -861,7 +888,7 @@ section h3 {
   }
 }
 
-@media (width <= 620px) {
+@media (width <=620px) {
   .hero-article h1 {
     font-size: 2.25rem;
   }
