@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/logo.jpg">
+  <link rel="stylesheet" href="./style.css">
+  <title>Atelier Voyage</title>
+</head>
+
+<body>
+
+  <!-- Primary Header -->
+  <header class="pm-header">
+    <div class="pm-header-wrapper wrapper">
+      <div class="logo">
+        <img src="./assets/logo.jpg" alt="Atelier Voyage logo" width="28" height="28" />
+        <span class="font-heading">ATELIER VOYAGE</span>
+      </div>
+
+      <nav class="pm-header-nav">
+        <ul class="pm-header-nav-list">
+          <li><a href="#" class="active"><span>INICIO</span></a></li>
+          <li><a href="#"><span>DESTINOS</span></a></li>
+          <li><a href="#"><span>SERVICIOS</span></a></li>
+          <li><a href="#"><span>NOSOTROS</span></a></li>
+          <li><a href="#"><span>CONTACTO</span></a></li>
+        </ul>
+      </nav>
+
+      <nav class="pm-header-cta-nav">
+        <ul class="pm-header-cta-nav-list">
+          <li>
+            <button type="button" class="button button-primary">
+              <span>Diseñar Itinerario</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button button-primary button-user">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" width="18" height="18">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background"></div>
+      <article class="hero-article">
+        <h1 class="font-heading">El arte de viajar hacia lo inexplorado</h1>
+        <p>Curaduría exclusiva de travesías a rincones secretos del planeta, alejados del turismo y concebidos con
+          precisión artesanal</p>
+      </article>
+
+      <form class="hero-form wrapper">
+        <div class="select-wrapper">
+          <label for="experience-type-select">TIPO DE EXPERIENCIA</label>
+          <select name="experience-type" id="experience-type-select">
+            <option value="santaurios">Santaurios naturales & lagos vírgenes</option>
+          </select>
+        </div>
+
+        <div class="select-wrapper">
+          <label for="experience-type-select">TEMPORADA PREFERIDA</label>
+          <select name="experience-type" id="experience-type-select">
+            <option value="santaurios">Primavera Austral</option>
+          </select>
+        </div>
+
+        <div class="select-wrapper">
+          <label for="experience-type-select">VIAJEROS</label>
+          <select name="experience-type" id="experience-type-select">
+            <option value="santaurios">En Pareja</option>
+          </select>
+        </div>
+
+        <button type="button" class="button button-primary">
+          <span>Explorar travesías</span>
+        </button>
+      </form>
+
+      <footer class="hero-footer wrapper">
+        <ul class="hero-footer-list">
+          <li>
+            <p>100% PERSONALIZADO</p>
+            <span>• Diseño a mano</span>
+          </li>
+          <li>
+            <p>MÁX. 6 EXPLORADORES</p>
+            <span>• Intimidad absoluta</span>
+          </li>
+          <li>
+            <p>ACCESO PRIVILEGIADO</p>
+            <span>• Sin huella ecológica</span>
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Destinations -->
+    <section class="destinations wrapper">
+      <article class="destinations-article">
+        <h5>COLECCIÓN INÉDITA</h5>
+        <h2 class="font-heading">Destinos Singulares</h2>
+        <p>Territorios alejados de las rutas comerciales donde la geografía, el silencio y la majestuosidad natural
+          permanecen intactos.</p>
+      </article>
+
+      <header class="destinations-header">
+        <button type="button" class="button button-tertiary">
+          <span>VER CATÁLOGO COMPLETO</span>
+        </button>
+      </header>
+
+      <ul class="destinations-list">
+        <li class="desinations-list-item">
+          <div class="desinations-list-item-img-wrapper">
+            <h4>ARCHIPIÉLAGO REMOTO</h4>
+            <picture>
+              <img src="./assets/destinations/archipielago-remoto.jpg"
+                alt="Montañas con una increíble vista hacia el mar">
+            </picture>
+            <footer>
+              <span>8 Días / 7 Noches</span>
+              <span>Acceso por Barco & Helipuerto Privado</span>
+            </footer>
+          </div>
+          <article class="desinations-list-item-article">
+            <div>
+              <h5>YEMEN INSULAR</h5>
+              <h2 class="font-heading">Socotra: El santuario botánico de otro mundo</h2>
+              <p>Adéntrese en una cápsula temporal geológica. Bosques milenarios de sangre de dragón, playas desiertas
+                de
+                dunas blancas y endemismos botánicos bajo la custodia de un biólogo local exclusivo para su grupo
+                privado.
+              </p>
+            </div>
+            <footer>
+              <div>
+                <span>Temporada Óptima</span>
+                <p>Noviembre - Abril</p>
+              </div>
+
+              <button class="button button-tertiary">
+                <span>DESCUBRIR ITINERARIO</span>
+              </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="desinations-list-item">
+          <div class="desinations-list-item-img-wrapper">
+            <h4>RUTA ÁRTICA</h4>
+            <picture>
+              <img src="./assets/destinations/ruta-artica.jpg"
+                alt="Aurora Boreal con vistas hacia las montañas nevadas">
+            </picture>
+          </div>
+          <article class="desinations-list-item-article">
+            <div>
+              <h5>ISLANDIA ORIENTAL</h5>
+              <h3 class="font-heading">Fiordos del Este y Tierras Altas</h3>
+              <p>
+                Silencio geotérmico absoluto, fuentes termales ocultas y auroras boreales vírgenes sin contaminación
+                lumínica. Estancia en cabañas de autor con chef privado.
+              </p>
+            </div>
+            <footer>
+              <div>
+                <span>6 Días • Solsticio & Otoño</span>
+              </div>
+
+              <button class="button button-tertiary">
+                <span>EXPLORAR</span>
+              </button>
+            </footer>
+          </article>
+        </li>
+
+        <li class="desinations-list-item">
+          <div class="desinations-list-item-img-wrapper">
+            <h4>HERENCIA ANCESTRAL</h4>
+            <picture>
+              <img src="./assets/destinations/herencia-ancestral.jpg" alt="Valle con casas antiguas en un desierto">
+            </picture>
+          </div>
+          <article class="desinations-list-item-article">
+            <div>
+              <h5>ALTO MUSTANG, NEPAL</h5>
+              <h3 class="font-heading">Reino de Mustang y Valles Prohibidos</h3>
+              <p>
+                Misticismo tibetano preservado en el corazón del Himalaya. Acceso restringido a monasterios del siglo
+                VIII y audencias exclusivas con ancianos de la realiza local.
+              </p>
+            </div>
+            <footer>
+              <div>
+                <span>10 Días • Expedición a Medida</span>
+              </div>
+
+              <button class="button button-tertiary">
+                <span>EXPLORAR</span>
+              </button>
+            </footer>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+      <article class="services-article">
+        <h5>EXCELENCIA OPERATIVA & DISCRECIÓN</h5>
+        <h2 class="font-heading">Nuestra Colección de Servicios All-in-One</h2>
+        <p>Cuidamos cada matiz de su travesía con un estándar de discreción, excelencia y confort sin precedentes para
+          que solo habite el asombro.</p>
+      </article>
+
+      <ul class="services-list wrapper">
+        <li>
+          <span>01 / CURADURÍA</span>
+          <h4 class="font-heading">Itinerarios a Medida</h4>
+          <p>Diseño milimétricos adaptado a su ritmos, pasiones e intereses personales, creando narrativas de viaje
+            irrepetibles y libres de cualquier itinerario estandarizado.</p>
+          <span>SESIÓN 1 A 1 DE DISEÑO</span>
+        </li>
+
+        <li>
+          <span>02 / LOGÍSTICA</span>
+          <h4 class="font-heading">Vuelos y Hospedaje Boutique</h4>
+          <p>
+            Acceso a eco-lodges remotos, villas privadas de autor y fletamento de aviación privada para llegar con
+            agilidad a pistas inaccesibles para vuelos comerciales.
+          </p>
+          <span>PRIVACIDAD Y CONFORT TOTAL</span>
+        </li>
+
+        <li>
+          <span>03 / ANFITRIONES</span>
+          <h4 class="font-heading">Guías Locales y Expertos</h4>
+          <p>
+            Acompañamiento por naturalistas de renombre, arqueólogos e historiadores autóctonos que abren puertas
+            vetadas y comparten sabiduría viva in situ.
+          </p>
+          <span>CONEXIÓN HUMANA AUTÉNTICA</span>
+        </li>
+
+        <li>
+          <span>04 / PROTECCIÓN</span>
+          <h4 class="font-heading">Concierge 24/7 en Ruta</h4>
+          <p>
+            Asistencia dedicada y discreta en tiempo real desde el primer despegue hasta su regreso. Coordinación
+            satelital y contingencias resueltas de inmediato.
+          </p>
+          <span>MONITOREO PERMANENTE</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Reason -->
+    <section class="reason wrapper">
+      <article class="reason-article">
+        <h5>NUESTRA RAZÓN DE SER</h5>
+        <h2 class="font-heading">Más allá del mapa trazado: La filosofía Atelier</h2>
+        <div class="phrase">
+          <p class="font-heading">
+            "El verdadero viaje no consiste en buscar nuevos paisajes, sino en mirar con ojos inéditos lo que aún
+            permanece incontaminado."
+          </p>
+        </div>
+        <p>
+          Nacimos de la convicción de que al verdadero lujo reside en la autenticidad, la soledad contemplativa y la
+          conexión íntima con lugares que aún conservan un misterio original. No vendemos paquetes turísticos;
+          esculpimos vivencias memorables con un compromiso inquebrantable hacia la conservación local y las comunidades
+          anfitrionas.
+        </p>
+
+        <ul class="reason-article-list">
+          <li>
+            <span>TURISMO REGENERATIVO</span>
+          </li>
+          <li>
+            <span>PRIVACIDAD ABSOLUTA</span>
+          </li>
+          <li>
+            <span>CURADURÍA POÉTICA DEL ESPACIO</span>
+          </li>
+        </ul>
+      </article>
+
+      <div class="reason-img-wrapper">
+        <picture>
+          <img src="./assets/turists.jpg" alt="Dos personas considerando un destino para su viaje">
+        </picture>
+
+        <div class="reason-img-testimonial">
+          <div class="stars">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-star">
+                <path
+                  d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+              </svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-star">
+                <path
+                  d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+              </svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-star">
+                <path
+                  d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+              </svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-star">
+                <path
+                  d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+              </svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-star">
+                <path
+                  d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+              </svg>
+            </span>
+          </div>
+
+          <p>
+            "Una expedición con Atelier no se cuenta: se decanta en la memoria durante años."
+          </p>
+          <span>Miembro Privado desde 2021</span>
+        </div>
+      </div>
+
+      <footer class="reason-footer">
+        <div class="logo-mini">
+          <span class="font-heading">AV</span>
+        </div>
+
+        <div class="reason-footer-content">
+          <h4 class="font-heading">Comité Curatorial Atelier</h4>
+          <span>GINEBRA • MADRID • KIOTO</span>
+        </div>
+      </footer>
+    </section>
+
+    <section class="get-started">
+      <div class="get-started-wrapper wrapper">
+        <article class="get-started-article">
+          <h5>PRIMER PASO DE SU ODISEA</h5>
+          <h2 class="font-heading">Comience a Diseñar su Próxima Expedición</h2>
+          <p>
+            Comparta su visión de viaje. Un curador especializado se pondrá en contacto en moenos de 24 horas para una
+            sesión de diseño personalizada.
+          </p>
+        </article>
+
+        <form class="get-started-form">
+          <div class="get-started-form-item">
+            <label for="name">NOMBRE COMPLETO *</label>
+            <input type="text" name="name" id="name" placeholder="Ej. Sofía Bearmont" required>
+          </div>
+
+          <div class="get-started-form-item">
+            <label for="email">CORREO ELECTRÓNICO *</label>
+            <input type="email" name="email" id="email" placeholder="sofia@ejemplo.com" required>
+          </div>
+
+          <div class="get-started-form-item">
+            <label for="destino">DESTINO O GEOGRAFÍA DE INTERÉS *</label>
+            <input type="destino" name="destino" id="destino"
+              placeholder="Ej: Socotra, Fiordos Remotos, Achipiélago Svalbard" required>
+          </div>
+
+          <div class="get-started-form-item">
+            <label for="destino">DESTINO O GEOGRAFÍA DE INTERÉS *</label>
+            <select id="select-time">
+              <option value="7-days">7 a 10 Días (Inmersión Breve)</option>
+            </select>
+          </div>
+
+          <div class="get-started-form-item get-started-form-item-msg">
+            <label for="msg">MENSAJE, INTENCIONES Y DESEOS PARTICULARES *</label>
+            <textarea id="msg" name="msg" rows="7"
+              placeholder="Describa el tono de la travesía: intereses arequelógicos, silencio y aislamiento, celebraciones privadas, restricciones culinarias.."></textarea>
+          </div>
+
+          <footer class="get-started-form-footer">
+            <span>Confidencialidad garantizada. Sin compromiso previo</span>
+            <button class="button button-primary">
+              <span>ENVIAR SOLICITUD PERSONALIDA</span>
+            </button>
+          </footer>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pm-footer">
+    <div class="pm-footer-wrapper wrapper">
+      <div class="column logo-column">
+        <div class="logo">
+          <img src="./assets/logo.jpg" alt="Atelier Voyage logo" width="28" height="28" />
+          <span class="font-heading">ATELIER VOYAGE</span>
+        </div>
+
+        <p>
+          Curadores de viajes y expediciones privadas a destinos inexplorados. Preservamos la reverencia por lo remoto
+          mediante hospitalidad artesanal.
+        </p>
+      </div>
+
+      <ul class="column">
+        <h5>EXPLORAR</h5>
+        <li><a href="#"><span>Socotra Insular</span></a></li>
+        <li><a href="#"><span>Tierras Altas de Islandia</span></a></li>
+        <li><a href="#"><span>Reino de Mustang</span></a></li>
+        <li><a href="#"><span>Desierto de Danakil</span></a></li>
+        <li><a href="#"><span>Atolones de Tuamotu</span></a></li>
+      </ul>
+
+      <ul class="column">
+        <h5>SERVICIOS ALL-IN-ONE</h5>
+        <li><a href="#"><span>Aviación Privada y Fletamentos</span></a></li>
+        <li><a href="#"><span>Curaduría Gastronómica Autóctona</span></a></li>
+        <li><a href="#"><span>Acceso Restringido y Permisos</span></a></li>
+        <li><a href="#"><span>Soporte Satelital y Concierge</span></a></li>
+        <li><a href="#"><span>Expediciones Científicas y Guías</span></a></li>
+      </ul>
+
+      <ul class="column">
+        <h5>ATENCIÓN & SEDES</h5>
+        <li><a href="#"><span>+ 34 910 284 920</span></a></li>
+        <li><a href="#"><span>concierge@ateliervoyage.com</span></a></li>
+        <p>Sedes de Consulta: Serrano 48 (Madrid) • Rue du Rhone 12 (Ginebra) • Gion Minami (Kioto)</p>
+      </ul>
+
+      <div class="copy">
+        <span>© 2024 Atelier Voyage S. L. Todos los derechos reservados</span>
+        <ul class="policies-list">
+          <li><a href="#"><span>Términos de Privacidad</span></a></li>
+          <li><a href="#"><span>Código Ético de Expedición</span></a></li>
+          <li><a href="#"><span>Aviso Legal</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
