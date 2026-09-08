@@ -829,18 +829,9 @@ picture {
   max-width: 100%;
 }
 
-section h2 {
-  font-size: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);
-  text-wrap: balance;
-}
-
+section h2,
 section h3 {
-  font-size: clamp(1.35rem, 1.1rem + 1.2vw, 1.8rem);
   text-wrap: balance;
-}
-
-.hero-article h1 {
-  font-size: clamp(2.25rem, 1.4rem + 4vw, 3.8rem);
 }
 
 .desinations-list-item-img-wrapper img {
@@ -854,6 +845,34 @@ section h3 {
 
 .reason-img-wrapper img {
   width: 100%;
+}
+
+@media (width <= 768px) {
+  .hero-article h1 {
+    font-size: 2.8rem;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (width <= 620px) {
+  .hero-article h1 {
+    font-size: 2.25rem;
+  }
+
+  section h2 {
+    font-size: 1.75rem;
+  }
+
+  section h3 {
+    font-size: 1.35rem;
+  }
 }
 
 @media (width <=1024px) {
