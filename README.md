@@ -55,7 +55,9 @@ Se incorporaron todas las secciones del diseño de Stich.
 
 **2. ¿Qué cambios realizó y por qué?**
 
-Los íconos propuestos de en el diseño de Stitch requieren una librería externa. Por simplicidad, se omitieron los mismos.
+La imagen de la sección `Hero` contaban con una calidad inferior a la deseada, por lo que se optó por utilizar una imagen de [Unsplash](https://unsplash.com)
+
+Los íconos propuestos en el diseño de Stitch requieren de una librería externa. Por simplicidad, se omitieron los mismos.
 
 **3. ¿Qué etiquetas semánticas utilizó?**
 
