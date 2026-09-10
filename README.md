@@ -1,6 +1,6 @@
 # Atelier Voyage | Software Development IV
 
-Un diseño de `Stitch` 
+Un diseño de `Stitch` transformado a un sitio web responsivo.
 
 ## Stich
 
@@ -41,11 +41,11 @@ Requisito Responsivo: La propuesta debe contemplar una distribución adaptable p
 
 ### Tableta
 
-<img src="./screenshots/tablet.png" alt="Atelier Voyage en tabletas" />
+<img src="./screenshots/tablet.png" alt="Atelier Voyage en tabletas" width="768px"  />
 
 ### Teléfono
 
-<img src="./screenshots/mobile.png" alt="Atelier Voyage en teléfonos"
+<img src="./screenshots/mobile.png" alt="Atelier Voyage en teléfonos" width="480px" />
 
 ## Preguntas de reflexión
 
