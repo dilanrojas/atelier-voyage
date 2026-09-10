@@ -1,6 +1,8 @@
 # Atelier Voyage | Software Development IV
 
-Un diseño de `Stitch` transformado a un sitio web responsivo.
+Un diseño de `Stitch` transformado en un sitio web responsivo.
+
+Visita [Atelier](https://atelier-voyage.vercel.app) para revisar el resultado.
 
 ## Stich
 
